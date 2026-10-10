@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Heitor Leão Oliveira, estudante de Ensino Médio e Técnico em TI.">
+    <title>Heitor Leão | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteudo-cabecalho">
+            <button class="botao-menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span aria-hidden="true">⋮</span>
+            </button>
+            <a class="logo" href="#inicio" aria-label="Ir para o início">
+                <img src="LogoHL.png" alt="Logo HL, de Heitor Leão">
+            </a>
+
+            <div class="fundo-menu" hidden></div>
+            <div class="menu-cabecalho" id="mobile-menu">
+            <button class="fechar-menu" type="button" aria-label="Fechar menu">×</button>
+            <nav class="navegacao-principal" aria-label="Navegação principal">
+                <a class="link-navegacao ativo" href="#inicio">Início</a>
+                <a class="link-navegacao" href="#skills">Skills</a>
+                <a class="link-navegacao" href="#sobre">Sobre</a>
+                <a class="link-navegacao" href="#projetos">Projetos</a>
+                <a class="link-navegacao" href="#experiencia">Experiência</a>
+                <a class="link-navegacao" href="#contato">Contato</a>
+            </nav>
+
+            <div class="acoes-cabecalho">
+                <a class="botao-contato" href="https://wa.me/5531997011883?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank" rel="noopener noreferrer" aria-label="Vamos conversar pelo WhatsApp (abre em nova guia)">
+                    <span class="texto-contato-completo">Vamos conversar</span>
+                    <span class="texto-contato-curto">Conversar</span>
+                </a>
+
+                <button class="botao-tema" type="button" aria-label="Ativar modo claro" title="Alterar tema">
+                    <span class="icone-tema icone-sol" aria-hidden="true">☀</span>
+                    <span class="icone-tema icone-lua" aria-hidden="true">☾</span>
+                </button>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        <section id="inicio" class="fundo-apresentacao" aria-labelledby="titulo-apresentacao">
+        <div class="conteudo-apresentacao">
+        <div class="informações-esquerda">
+            <div class="texto-apresentação">
+                <span>Olá, eu sou</span>
+                <h1 id="titulo-apresentacao">Heitor Leão<br>Oliveira</h1>
+                <p>Estudante de Ensino Médio e Técnico em TI</p>
+                <p>Apaixonado por tecnologia, desenvolvimento e
+                inovação. Buscando transformar ideias em soluções
+                que fazem a diferença.</p>
+            </div>
+
+            <div class="botões-apresentação">
+                <a class="botao-apresentacao botao-curriculo" href="Curriculo%20(1).pdf" download="Curriculo-Heitor-Leao.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo<img src="download seta.png" alt="" width="38" height="38"></a>
+                <!-- TODO: Ao migrar para o GitHub pessoal, atualizar este link e o ícone do GitHub nas redes sociais. -->
+                <a class="botao-apresentacao botao-projetos" href="https://github.com/Heitor-123-Leao" target="_blank" rel="noopener noreferrer" aria-label="Ver projetos no GitHub (abre em nova guia)">Ver Projetos <span aria-hidden="true">›</span></a>
+            </div>
+            
+            <span class="me-encontre">Me encontre nas redes</span>
+
+            <div class="redes-sociais">
+                <a class="icones-redes-sociais" href="https://www.instagram.com/heitorlleao_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Heitor Leão (abre em nova guia)"><img src="instagram (1).png" alt=""></a>
+                <a class="icones-redes-sociais" href="https://www.tiktok.com/@heitorlleao_" target="_blank" rel="noopener noreferrer" aria-label="TikTok de Heitor Leão (abre em nova guia)"><img src="tik-tok (1).png" alt="TikTok"></a>
+                <a class="icones-redes-sociais" href="https://www.linkedin.com/in/heitor-l-6a5116396/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Heitor Leão (abre em nova guia)"><img src="linkedin (1).png" alt=""></a>
+                <!-- TODO: Este GitHub usa a conta do e-mail da escola. Futuramente, trocar o href abaixo pelo link da conta pessoal. -->
+                <a class="icones-redes-sociais" href="https://github.com/Heitor-123-Leao" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Heitor Leão (abre em nova guia)"><img src="github.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="informações-direita">
+            <div class="foto-apresentação foto-com-movimento">
+                <img src="Heitor1.png" alt="Foto de Heitor Leão Oliveira">
+            </div>
+        </div>
+        </div>
+        </section>
+        
+        
+        <section id="skills" class="minhas-habilidades" aria-label="Minhas skills">
+            <div class="conteudo-habilidades">
+                <h2>Minhas Skills</h2>
+                <span class="descricao-habilidades">Tecnologias e ferramentas que estou aprendendo e utilizando.</span>
+                <div class="grade-habilidades">
+                    <div class="cartao-habilidade">
+                        <img src="html 1.png" alt=""> 
+                        <h4>HTML</h4>
+                        <!-- Altere o nível em aria-valuenow e --skill-value. -->
+                        <div class="progresso-habilidade" role="meter" aria-label="Nível em HTML" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" style="--skill-value: 90%">
+                            <span class="porcentagem-habilidade" aria-hidden="true">90%</span>
+                            <div class="trilha-habilidade" aria-hidden="true"><span class="preenchimento-habilidade"></span></div>
+                        </div>
+                    </div>
+                    <div class="cartao-habilidade">
+                        <img src="css 1.png" alt=""> 
+                        <h4>CSS</h4>
+                        <!-- Altere o nível em aria-valuenow e --skill-value. -->
+                        <div class="progresso-habilidade" role="meter" aria-label="Nível em CSS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90" style="--skill-value: 90%">
+                            <span class="porcentagem-habilidade" aria-hidden="true">90%</span>
+                            <div class="trilha-habilidade" aria-hidden="true"><span class="preenchimento-habilidade"></span></div>
+                        </div>
+                    </div>
+                    <div class="cartao-habilidade">
+                        <img src="java-script 1.png" alt=""> 
+                        <h4>JavaScript</h4>
+                        <!-- Altere o nível em aria-valuenow e --skill-value. -->
+                        <div class="progresso-habilidade" role="meter" aria-label="Nível em JavaScript" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" style="--skill-value: 10%">
+                            <span class="porcentagem-habilidade" aria-hidden="true">10%</span>
+                            <div class="trilha-habilidade" aria-hidden="true"><span class="preenchimento-habilidade"></span></div>
+                        </div>
+                    </div>
+                    <div class="cartao-habilidade">
+                        <img src="tool 1.png" alt=""> 
+                        <h4>Figma</h4>
+                        <!-- Altere o nível em aria-valuenow e --skill-value. -->
+                        <div class="progresso-habilidade" role="meter" aria-label="Nível em Figma" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" style="--skill-value: 80%">
+                            <span class="porcentagem-habilidade" aria-hidden="true">80%</span>
+                            <div class="trilha-habilidade" aria-hidden="true"><span class="preenchimento-habilidade"></span></div>
+                        </div>
+                    </div>
+                    <div class="cartao-habilidade">
+                        <img src="c-sharp 1.png" alt=""> 
+                        <h4>C#</h4>
+                        <!-- Altere o nível em aria-valuenow e --skill-value. -->
+                        <div class="progresso-habilidade" role="meter" aria-label="Nível em C#" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" style="--skill-value: 75%">
+                            <span class="porcentagem-habilidade" aria-hidden="true">75%</span>
+                            <div class="trilha-habilidade" aria-hidden="true"><span class="preenchimento-habilidade"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre-mim" aria-labelledby="titulo-sobre">
+            <div class="conteudo-sobre-mim">
+            <div class="sobre-mim-esquerda">
+                <span class="sobre-mim-titulo">Sobre mim</span>
+                <h2 id="titulo-sobre">Quem sou eu?</h2>
+                <p>
+                    Sou estudante do Ensino Médio integrado ao Técnico em TI no COTEMIG.
+                </p>
+                <p>
+                    Nascido em 09/09/2009, em Nova Lima-MG, atualmente
+                    morando em Contagem-MG. Tenho muito orgulho da minha
+                    cultura mineira e carrego ela como um estilo de vida.
+                    Apaixonado por esportes, tecnologia e inovações.
+                </p>
+                <p>
+                    Além da formação acadêmica, já possuo experiência no
+                    mercado de trabalho, atuando em um escritório de contabilidade.
+                    Essa experiência me permite conhecer de perto
+                    a rotina profissional, desenvolver novas habilidades e
+                    colocar em prática conhecimentos que vou adquirindo ao
+                    longo da minha formação.
+                </p>
+                <p>
+                    Estou sempre em busca de melhorias, novos desafios e
+                    oportunidades para aprender. Acredito que cada
+                    experiência é uma oportunidade de evoluir e me preparar
+                    para os próximos passos da minha carreira.
+                </p>
+            </div>
+
+            <div class="sobre-mim-direita foto-com-movimento">
+                <img src="Heitor2.png" alt="Foto de Heitor Leão Oliveira">
+            </div>
+            </div>
+        </section>
+
+        <section class="meus-projetos" id="projetos" aria-labelledby="titulo-projetos">
+            <div class="conteudo-projetos">
+                <h2 id="titulo-projetos">Meus <span>Projetos</span></h2>
+                <span class="descricao-projetos">Alguns projetos que desenvolvi durante meus estudos e experiências.</span>
+                <div class="grade-projetos">
+                    <div class="cartao-projeto">
+                        <!-- TODO: Para ativar Site Responsivo, adicione href="URL_DO_PROJETO" ao <a> abaixo e remova aria-disabled="true".
+                             O mesmo link abrange a imagem e o título e abre em uma nova guia. -->
+                        <a class="link-projeto" aria-disabled="true" target="_blank" rel="noopener noreferrer">
+                            <div class="previa-projeto">
+                                <!-- TODO: Salve projeto1.png nesta pasta e remova o comentário da imagem abaixo. -->
+                                <!-- <img src="projeto1.png" alt="Página inicial do projeto Site Responsivo" width="382" height="178" loading="lazy"> -->
+                            </div>
+                            <h3>Site Responsivo</h3>
+                        </a>
+                        <div class="linguagens-utilizadas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                    <div class="cartao-projeto">
+                        <!-- TODO: Para ativar Site e-commerce, adicione href="URL_DO_PROJETO" ao <a> abaixo e remova aria-disabled="true".
+                             O mesmo link abrange a imagem e o título e abre em uma nova guia. -->
+                        <a class="link-projeto" aria-disabled="true" target="_blank" rel="noopener noreferrer">
+                            <div class="previa-projeto">
+                                <!-- TODO: Salve projeto2.png nesta pasta e remova o comentário da imagem abaixo. -->
+                                <!-- <img src="projeto2.png" alt="Página inicial do projeto Site e-commerce" width="382" height="178" loading="lazy"> -->
+                            </div>
+                            <h3>Site e-commerce</h3>
+                        </a>
+                        <div class="linguagens-utilizadas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                    <div class="cartao-projeto">
+                        <!-- TODO: Para ativar Portfólio, adicione href="URL_DO_PROJETO" ao <a> abaixo e remova aria-disabled="true".
+                             O mesmo link abrange a imagem e o título e abre em uma nova guia. -->
+                        <a class="link-projeto" aria-disabled="true" target="_blank" rel="noopener noreferrer">
+                            <div class="previa-projeto">
+                                <!-- TODO: Salve projeto3.png nesta pasta e remova o comentário da imagem abaixo. -->
+                                <!-- <img src="projeto3.png" alt="Página inicial do projeto Portfólio" width="382" height="178" loading="lazy"> -->
+                            </div>
+                            <h3>Portfólio</h3>
+                        </a>
+                        <div class="linguagens-utilizadas">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- As classes desta seção são usadas pelo CSS e pela animação em script.js. -->
+        <section id="experiencia" class="experiencia-eventos" aria-labelledby="titulo-experiencia">
+            <div class="conteudo-experiencia">
+                <h2 id="titulo-experiencia">Experiência e Eventos</h2>
+                <span class="descricao-experiencia">Eventos que pude vivenciar, buscando ampliar meus conhecimentos</span>
+                <ol class="linha-tempo-eventos" aria-label="Linha do tempo de eventos">
+                    <li class="evento-item">
+                        <article class="cartao-evento" aria-labelledby="evento-minas">
+                            <time datetime="2026">2026</time>
+                            <h3 id="evento-minas">Minas Summit</h3>
+                            <figure>
+                                <img src="MinasSummit.png" alt="Participação no Minas Summit" width="382" height="178" loading="lazy">
+                                <figcaption>Participação no evento Minas Summit 2026 disponibilizado pela parceria com o colégio COTEMIG.</figcaption>
+                            </figure>
+                        </article>
+                    </li>
+                    <li class="evento-item">
+                        <article class="cartao-evento" aria-labelledby="evento-alavanca">
+                            <time datetime="2026">2026</time>
+                            <h3 id="evento-alavanca">Alavanca Contábil</h3>
+                            <figure>
+                                <img src="AlavancaContábil.png" alt="Participação no Alavanca Contábil" width="382" height="178" loading="lazy">
+                                <figcaption>Evento para a área de contabilidade, com foco no uso da tecnologia e da IA.</figcaption>
+                            </figure>
+                        </article>
+                    </li>
+                    <li class="evento-item">
+                        <article class="cartao-evento" aria-labelledby="evento-conta-azul">
+                            <time datetime="2026">2026</time>
+                            <h3 id="evento-conta-azul">Conta Azul CON 2026</h3>
+                            <figure>
+                                <img src="ContaAzulCON.png" alt="Participação no Conta Azul CON" width="382" height="178" loading="lazy">
+                                <figcaption>Super evento do sistema ERP Conta Azul. Foco em gestão empresarial e implementação de IA no seu negócio.</figcaption>
+                            </figure>
+                        </article>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="contato" id="contato" aria-labelledby="titulo-contato">
+            <div class="conteudo-contato">
+            <h2 id="titulo-contato">Vamos Conversar?</h2>
+            <h3>Deixe sua mensagem, ideia, <br> 
+                sugestão ou proposta. </h3>
+
+            <!-- Formspree: o e-mail de destino é definido no painel do serviço.
+                 Destinatário desejado: heitor.leao.oliveira@gmail.com. -->
+            <form class="formulario-contato" action="https://formspree.io/f/moejdpbz" method="POST" aria-describedby="contato-aviso">
+                <input type="hidden" name="_subject" value="Novo contato pelo portfólio de Heitor Leão">
+                <label class="campo-contato nome">
+                    <span class="visualmente-oculto">Seu nome</span>
+                    <input type="text" name="nome" autocomplete="name" placeholder="Seu nome" required maxlength="120">
+                </label>
+                <label class="campo-contato email">
+                    <span class="visualmente-oculto">E-mail</span>
+                    <input type="email" name="email" autocomplete="email" placeholder="E-mail" required maxlength="254">
+                </label>
+                <label class="campo-contato mensagem">
+                    <span class="visualmente-oculto">Mensagem</span>
+                    <textarea name="mensagem" placeholder="Mensagem" required maxlength="5000" rows="4"></textarea>
+                </label>
+                <button class="enviar" type="submit" aria-describedby="contato-aviso" disabled>Enviar</button>
+                <p id="contato-aviso" role="status" aria-live="polite" aria-atomic="true">Preencha todos os campos com um e-mail válido para liberar o envio.</p>
+                <noscript><p>Ative o JavaScript para enviar o formulário ou utilize o e-mail informado abaixo.</p></noscript>
+            </form>
+
+            <div class="informacoes-contato">
+                <p class="contato-item">
+                    <span class="contato-icone contato-icone-telefone"><img src="telefone.png" alt="" width="26" height="26"></span>
+                    <span>Telefone: (31) 9 9701-1883</span>
+                </p>
+                <p class="contato-item">
+                    <span class="contato-icone"><img src="email.png" alt="" width="26" height="26"></span>
+                    <span>E-mail: heitor.leao.oliveira@gmail.com</span>
+                </p>
+            </div>
+            </div>
+        </section>
+    </main>
+        <footer class="rodape">
+            <p>© 2026 Heitor Leão. Todos os direitos reservados</p>
+        </footer>
+
+    <div class="notificacao-envio" hidden>
+        <div role="status" aria-live="polite" aria-atomic="true">
+            <strong class="titulo-notificacao"></strong>
+            <p>Sua mensagem foi recebida pelo serviço de envio. Obrigado pelo contato!</p>
+        </div>
+        <button class="fechar-notificacao" type="button" aria-label="Fechar confirmação de envio">×</button>
+    </div>
+    <div class="confetes" aria-hidden="true"></div>
+
+    <div class="cursor-personalizado" aria-hidden="true">
+        <span class="ponto-cursor"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
